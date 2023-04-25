@@ -64,3 +64,43 @@ usam GitHub Actions com GitOps
 
 
 
+
+## Scaffolding 
+
+- É o ato de fornecer um Template que vai alimentar o Backstage.
+
+### Introduction
+
+This tutorial will show you how to create a basic scaffolder template in Backstage.
+
+You can find detailed docs on writing scaffolder templates here.
+
+The Roadie Backstage scaffolder is a feature that allows you to define software templates to create new software projects, update existing ones or simply perform repeated tasks in a consistent manner.
+
+Scaffolder templates are defined in YAML files and loaded into the Backstage catalog in the same way that other entities are loaded into Backstage. A template contains one or more steps which run sequentially during execution.
+
+A Scaffolder template is then run on demand by the users of Backstage to execute the software template.
+
+
+https://roadie.io/docs/getting-started/scaffolding-components/
+<https://roadie.io/docs/getting-started/scaffolding-components/>
+
+
+https://backstage.io/docs/reference/plugin-scaffolder/
+<https://backstage.io/docs/reference/plugin-scaffolder/>
+
+
+
+
+
+
+
+
+
+
+## Crossplane
+
+- O Crossplane é muito importante, ele facilita muita coisa.
+- O Crossplane é muito importante, ele facilita muita coisa.
+- O Crossplane é muito importante, ele facilita muita coisa.
+- O Crossplane é muito importante, ele facilita muita coisa.
