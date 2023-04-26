@@ -12,6 +12,28 @@ git status
 
 ## DIA 3 - PLATFORM ENGINEER SUMMIT 2023
 
+19:00 - 19:45
+Alice Paixão - Internal Developer Platform: Transformar a experiência do dev e impulsionar a velocidade de entrega
+
+20:00 - 20:45
+Mateus Prado - It's all about Product Engineering
+
+21:00 - 21:45
+Pery Lemke - Developer Effectiveness - Como melhorar a nossa eficácia?
+
+22:00 - 22:45
+Camilla Martins - Trabalhando no exterior com infraestrutura
+
+
+
+
+
+
+
+
+
+# Alice Paixão - Internal Developer Platform: Transformar a experiência do dev e impulsionar a velocidade de entrega
+
 - Usuários que terão os acessos.
 
 
@@ -47,3 +69,74 @@ Implantar primeira parte
 
 
 
+## O que foi feito?
+
+- Clusters manuais > IAC > Terraform
+
+- Alterar serviços de maneira segura, sem necessidade de edição manual > GitOps > ArgoCD
+
+
+
+
+
+## Portal
+
+- Pode ser importante o acompanhamento de um DEV-Frontend nesta missão.
+
+
+
+
+
+
+
+## Compartilhando resultados
+
+- Curva de aprendizado.
+
+- 4 métricas
+Deployment Frequency
+Lead time for Changes
+Change Failure Rate
+Time to Restore Service
+
+
+
+
+
+- Camadas para Plataforma
+de forma self-service, o próprio Dev poder ajustar um parametro de RAM, CPU, replicas, etc
+
+- Feedback dos times
+satisfação dos clientes(Dev's)
+
+
+
+## ACESSOS
+
+- Acessos bem selecionados, garantem economias, pois o usuário só vai ter acesso a recursos que precisa de fato.
+- Cluster
+
+
+
+## IMPORTANTE
+- Cuidar para que UX seja amigável.
+experiencia do usuário pode ditar o sucesso ou fracasso da implantação do IDP
+
+
+
+
+
+
+
+
+
+
+
+# Mateus Prado - It's all about Product Engineering
+
+No final das contas a pergunta é: "QUAL PROBLEMA QUEREMOS RESOLVER?"
+
+## THE DEFINITIONS TEAMS
+
+- Envolver os times que vão ditar os requisitos da plataforma
+usuários que vão poder contribuir de verdade na modelagem da plataforma
