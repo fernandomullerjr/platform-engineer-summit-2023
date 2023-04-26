@@ -147,3 +147,20 @@ O que?
 Como?
 
 - Saber explicar o problema que queremos resolver.
+Qual o problema da empresa vamos resolver???
+
+
+
+
+
+
+
+
+
+
+
+
+
+21:00 - 21:45
+
+# Pery Lemke - Developer Effectiveness - Como melhorar a nossa eficácia?
