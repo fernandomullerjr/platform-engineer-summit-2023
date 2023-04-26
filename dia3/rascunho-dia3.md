@@ -140,3 +140,10 @@ No final das contas a pergunta é: "QUAL PROBLEMA QUEREMOS RESOLVER?"
 
 - Envolver os times que vão ditar os requisitos da plataforma
 usuários que vão poder contribuir de verdade na modelagem da plataforma
+
+
+- Saber responder:
+O que?
+Como?
+
+- Saber explicar o problema que queremos resolver.
