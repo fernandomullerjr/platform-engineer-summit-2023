@@ -91,3 +91,35 @@ tempo-7cd894b88f-tkk8j            1/1     Running   0          5h38m
     Abra uma conexão com o serviço do Grafana em uma outra sessão do terminal:
 
 kubectl port-forward -n observability-backend svc/grafana 3000:3000
+
+
+
+LOKI
+Loki is a log aggregation
+
+TEMPO
+Grafana Tempo is an open source, easy-to-use, and high-scale distributed tracing backend. 
+
+MIMIR
+Grafana Mimir is an open source, horizontally scalable, highly available, multi-tenant, long-term storage for Prometheus.
+
+
+
+- Este trecho de código abaixo define que os Logs sejam enviados ao Loki, os Traces sejam enviados ao Tempo e as métricas sejam enviadas ao Mimir:
+
+~~~~YAML
+exporters:
+      otlp:
+        endpoint: "http://tempo.observability-backend.svc.cluster.local:55680"
+        tls:
+          insecure: true
+      otlphttp/mimir:
+        endpoint: "http://mimir.observability-backend.svc.cluster.local:8080/otlp"
+      loki:
+        endpoint: "http://loki.observability-backend.svc.cluster.local:3100/loki/api/v1/push"
+      logging:
+~~~~
+
+
+
+
