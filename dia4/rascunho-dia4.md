@@ -53,3 +53,41 @@ Willian dos Santos - Landing Zones: Desbloqueando o Poder da Infra-estrutura Mod
 20:00 - 20:45
 ## Yuri Sa - Auto-Observabilidade: Monitorando sua app NodeJS
 
+operatorhub.io
+
+## Auto-instrumentação
+
+- O OpenTelemetry entra como um "init-container".
+
+- Envia pro Collector
+
+
+- A Auto-instrumentação é realizada baseada nos annotations.
+
+- Repo
+https://github.com/yuriolisa/pes-2023-opentelemetry
+
+
+
+
+
+Deploy das Ferramentos de Observabilidade:
+
+    Grafana
+    Loki
+    Mimir
+    Tempo
+
+kubectl apply -f 01-backend.yaml
+
+    Você pode verificar se o serviços estão rodando através do comando kubectl get pods -n observability-backend e o resultado deve ser esse:
+
+NAME                              READY   STATUS    RESTARTS   AGE
+grafana-5bcfcc785d-lw8b5          1/1     Running   0          5h38m
+loki-0                            1/1     Running   0          5h38m
+mimir-0                           1/1     Running   0          5h38m
+tempo-7cd894b88f-tkk8j            1/1     Running   0          5h38m
+
+    Abra uma conexão com o serviço do Grafana em uma outra sessão do terminal:
+
+kubectl port-forward -n observability-backend svc/grafana 3000:3000
