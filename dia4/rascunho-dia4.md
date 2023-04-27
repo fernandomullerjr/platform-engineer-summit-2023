@@ -33,4 +33,23 @@ Willian dos Santos - Landing Zones: Desbloqueando o Poder da Infra-estrutura Mod
 19:00 - 19:45
 ## Matheus Fidelis - Sobrevivendo a Cenários de Caos com Istio Service Mesh
 
+## Envoy Proxy
+
+- Envoy é MUITO IMPORTANTE.
+
+- Envoy é um proxy reverso.
+é um intermediador entre o Servidor
+
+- 
+
+
+
+
+
+
+
+
+
+20:00 - 20:45
+## Yuri Sa - Auto-Observabilidade: Monitorando sua app NodeJS
 
