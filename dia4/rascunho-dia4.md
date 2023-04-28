@@ -254,3 +254,5 @@ E agora tá batendo no Grafana Tempo os Traces
 
 
 
+
+- Para times que tem Débitos técnicos, a auto-instrumentação é interessante, ajuda a facilitar implantação de Logs, Traces, Métricas.
